@@ -1,6 +1,6 @@
 var randomNumber1 = Math.floor(Math.random() * 6) + 1
 
-var randomDiceImage = "Dice" + randomNumber1 + ".png";
+var randomDiceImage = "dice" + randomNumber1 + ".png";
 
 var randonImageSource = "images/" + randomDiceImage;
 
@@ -10,7 +10,7 @@ image1.setAttribute("src", randonImageSource);
 
 var randomNumber2 = Math.floor(Math.random() * 6) + 1
 
-var randomDiceImage2 = "Dice" + randomNumber2 + ".png";
+var randomDiceImage2 = "dice" + randomNumber2 + ".png";
 
 var randonImageSource2 = "images/" + randomDiceImage2;
 
